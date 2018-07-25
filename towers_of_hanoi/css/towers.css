@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+}
+.towers {
+  margin: auto;
+  width: 500px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+.tower {
+  display: inline-block;
+  border: 1px solid black;
+  min-width: 200px;
+  padding: 0px;
+  vertical-align: bottom;
+}
+
+li {
+  display: flex;
+  border-radius: 10px;
+  background-color: gray;
+  margin: 10px auto;
+  list-style: none;
+  height: 20px;
+}

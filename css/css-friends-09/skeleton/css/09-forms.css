@@ -1,0 +1,39 @@
+/* PHASE 9: Forms */
+
+.main-thumb {
+  float: left;
+  width: 58px;
+  height: 58px;
+}
+
+.input {
+  display: flex;
+  float: left;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 50px;
+  background-color: lightgray;
+}
+
+.post{
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0px 10px;
+  background-color: white;
+}
+.body {
+  border: 1px solid black;
+  border-radius:10px;
+  min-height: 200px;
+  margin: 0px 10px;
+  background-color: white;
+}
+
+.myButton {
+  float:left;
+  padding:5px 15px;
+  background-color: green;
+  margin: 10px;
+  color: white;
+  border-radius: 5px;
+}

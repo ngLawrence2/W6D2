@@ -1,0 +1,27 @@
+/* ul.css("display","flex");
+ul.css("width", "500px");
+const li = $("li");
+li.css("flex-wrap", "wrap");
+li.css("border","3px solid black");
+li.css("background","gray");
+li.css("on:hover", "yellow"); */
+
+ul {
+  margin: 0px;
+  display: flex;
+  min-height: 300px;
+  max-width: 350px;
+  flex-wrap: wrap;
+}
+
+li {
+  height: 100px;
+  min-width: 100px;
+  border: 3px solid black;
+  list-style: none;
+  background-color: gray;
+}
+
+li:hover {
+  background-color: yellow;
+}
